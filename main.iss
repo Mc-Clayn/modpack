@@ -208,25 +208,6 @@ begin
  InitializeReadyPage();
  InitializeInstallingPage();
  InitializeFinishedPage();
- // cursor
- //with WizardForm do begin
- // Cursor := MyCursor;
- // end;
- // hcur := LoadCursorFromFile(ExpandConstant('{tmp}\wot_kden_arrow.cur'));
- // Screen.Cursors[MyCursor] := hcur;
-
- // with WizardForm.CancelButton do
- // begin
-  //  Cursor := MyCursor;
- // end;
- // with WizardForm.NextButton do
- // begin
- //   Cursor := MyCursor;
- // end;
- // with WizardForm.BackButton do
- // begin
- //   Cursor := MyCursor;
- // end;
 
   // splash screen
   Splash();
